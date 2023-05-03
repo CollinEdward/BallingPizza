@@ -1,0 +1,130 @@
+/*box-sizing: border-box er en default indstilling for CSS. 
+Man behøver ikke forstå det, men det skal være der.
+Stjernen angiver at stylingen gælder for ALLE HTML elementer, uden undtagelse
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(2, 2, 2);
+  color: white;
+}
+
+/* Style the heading elements */
+h1, h2 {
+  color: #F8C547;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style the paragraphs */
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Style the image */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Set the link color */
+a {
+  color: #F8C547;
+}
+
+/* Style the link on hover */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Center the header and footer */
+header, footer {
+  text-align: center;
+}
+
+/* Style the header */
+header {
+  background-color: #0A0E3F;
+  padding: 20px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #0A0E3F;
+  padding: 10px;
+  font-size: 14px;
+}
+
+nav {
+    background-color: rgb(45, 40, 40);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(68,60,60);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    
+  }
+
+button1 {
+    background-color: rgb(68,60,60);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 42px;
+    cursor: pointer;
+    color: rgb(196, 170,120);
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+h3 {  
+    color: #F8C547;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.background {
+    background-color: rgb(86,75,77);
+    width: auto;
+    height: 160px;
+    margin-top: -0.1%;
+    border-radius: 5px;
+
+}
+
+.button-background {
+    margin-top: -1.2;
+    background-color: #2E2828;
+    width: auto;
+    height: 100px;
+
+}
