@@ -115,7 +115,7 @@ h3 {
 .background {
     background-color: rgb(86,75,77);
     width: auto;
-    height: 160px;
+    height: 190px;
     margin-top: -0.1%;
     border-radius: 5px;
 
@@ -127,4 +127,75 @@ h3 {
     width: auto;
     height: 100px;
 
+}
+
+
+.overskrift-menu {
+  margin-top: -150px;
+  font-size: 100px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.pizza {
+  background-color: #816f47;
+  height: 150px;
+  
+  margin-left: 20%;
+  margin-right: 20%;
+  
+  margin-bottom: 15px;
+
+  border-radius: 10px;
+
+  padding-left: 10px;
+  padding-top: 1px;
+
+}
+
+
+.payment-form {
+  background-color: rgb(68,60,60);
+  padding: 20px;
+  margin-bottom: 150px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  
+}
+
+.payment-form input,
+.payment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.betal-button {
+background-color: rgb(68,60,60);  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.betal-button:hover {
+  background-color: #271404;
+}
+
+
+.container-kort {
+  padding-top: 20px;
+
+  
 }
